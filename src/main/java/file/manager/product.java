@@ -7,6 +7,7 @@ public class product {
      String price;
      String mainphoto;
      String[] additionalphotos;
+
      String description;
      String specification;
     String[] availableColors;
