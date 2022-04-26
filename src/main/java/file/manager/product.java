@@ -1,52 +1,83 @@
 package file.manager;
 
 public class product {
-    private String ProductName;
-    private String productOldPrice;
-    private String ProductNewPrice;
-    private String ProductImg1;
-    private String[] product_images;
-    private String description;
-    private String specification;
+     String id;
+     String name;
+     String oldprice;
+     String price;
+     String mainphoto;
+     String[] additionalphotos;
+     String description;
+     String specification;
+    String[] availableColors;
+    String[] availableSizes;
 
-    public String getProductName() {
-        return ProductName;
+    public String getId() {
+        return id;
     }
 
-    public void setProductName(String Productname) {
-        this.ProductName = Productname;
+    public void setId(String id) {
+        this.id = id;
     }
 
-    public String getProductOldPrice() {
-        return productOldPrice;
+
+    public String[] getAvailableColors() {
+        return availableColors;
     }
 
-    public void setProductOldPrice(String productOldPrice) {
-        this.productOldPrice = productOldPrice;
+    public void setAvailableColors(String[] availableColors) {
+        this.availableColors = availableColors;
     }
 
-    public String getProductNewPrice() {
-        return ProductNewPrice;
+
+
+    public String[] getAvailableSizes() {
+        return availableSizes;
     }
 
-    public void setProductNewPrice(String productNewPrice) {
-        this.ProductNewPrice = productNewPrice;
+    public void setAvailableSizes(String[] availableSizes) {
+        this.availableSizes = availableSizes;
     }
 
-    public String getProductImg1() {
-        return ProductImg1;
+
+    public String getName() {
+        return name;
     }
 
-    public void setProductImg1(String productImg1) {
-        this.ProductImg1 = productImg1;
+    public void setName(String Productname) {
+        this.name = Productname;
     }
 
-    public String[] getProduct_images() {
-        return product_images;
+    public String getOldprice() {
+        return oldprice;
     }
 
-    public void setProduct_images(String[] product_images) {
-        this.product_images = product_images;
+    public void setOldprice(String oldprice) {
+        this.oldprice = oldprice;
+    }
+
+    public String getPrice() {
+        return price;
+    }
+
+    public void setPrice(String price) {
+        this.price = price;
+    }
+
+    public String getMainphoto() {
+        return mainphoto;
+    }
+
+    public void setMainphoto(String mainphoto) {
+        this.mainphoto = mainphoto;
+    }
+
+    public String[] getAdditionalphotos() {
+        return additionalphotos;
+    }
+
+    public void setAdditionalphotos(String[] additionalphotos) {
+        this.additionalphotos = additionalphotos;
     }
 
     public String getDescription() {
